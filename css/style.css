@@ -1,0 +1,43 @@
+*{
+    box-sizing: border-box;
+
+}
+
+:root{
+    --block-shadow: 0 0 6px red;
+}
+
+body{
+    padding: 0;
+}
+
+
+.container{
+    max-width: 1100px;
+    border: auto;
+    padding:20px;
+}
+
+.news, .features{
+     display: flex;
+     align-items: center;
+     justify-content: center;
+
+
+
+    height: 400px;
+    border: 1px solid red;
+    margin: 30px auto;
+}
+
+.new-box{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 2px black;
+}
+
+.features-box{
+    width: 100px;
+    height: 100px;
+    box-shadow: 0 0 2px black;
+}
